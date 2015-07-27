@@ -1,3 +1,9 @@
 <H1>Hello!</H1>
 
 
+<%= form_tag "/search", :method => 'get' do %>
+  <p>
+    <%= text_field_tag :q, params[:search] %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+<% end %>
