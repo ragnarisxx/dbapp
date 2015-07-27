@@ -1,0 +1,12 @@
+<table>                         
+  <tr>                          
+    <th>field1</th>
+    <th>field2</th>
+  </tr>
+<% @tbl_company.find do |data| %>       
+ 	 <tr>
+    <td><%= data.CompanyName %></td>  
+    <td><%= data.CPhone %></td>  
+  </tr>
+<% end %>                       
+</table>                   

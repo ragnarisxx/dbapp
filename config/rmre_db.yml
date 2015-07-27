@@ -1,0 +1,9 @@
+---
+:db:
+  :username: sa
+  :password: Layton118!
+  :timeout: 5000
+  :adapter: sqlserver
+  :database: Hans_Access
+  :host: DB-01\Development
+  :out_path: C:\Users\mspizzirri\Documents\Aptana Studio 3 Workspace\HansDB\app\models

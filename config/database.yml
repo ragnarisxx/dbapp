@@ -1,0 +1,11 @@
+
+
+development:
+  adapter: sqlserver
+  mode: dblib
+  dataserver: 172.31.16.24\development
+  database: Hans_Access
+  username: sa
+  password: Layton118!
+  encoding: utf8
+
