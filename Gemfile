@@ -32,7 +32,7 @@ end
 
 gem 'rmre'
 
-
+gem "squeel"
 
 gem 'bootstrap'
 # Use ActiveModel has_secure_password

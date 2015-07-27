@@ -1,8 +1,12 @@
 class TblCompany < ActiveRecord::Base
     self.table_name = 'tblCompany'
-    self.primary_key = :CID
+    self.primary_key = :CompanyName
     
-  
+  def self.search(query)
+    where do
+      (name =~ "%#{query}%")
+    end
+  end
     
 
     

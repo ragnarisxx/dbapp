@@ -1,1 +1,12 @@
-          
+ <table>                         
+  <tr>                          
+    <th>field1</th>
+    <th>field2</th>
+  </tr>
+<% @tblCompany.where do |data| %>       #start loop
+  <tr>
+    <td><%= data.field1 %></td>  #column field1 in your database
+    <td><%= data.field2 %></td>  #column field2 in your database
+  </tr>
+<% end %>                        #end loop
+</table>          
